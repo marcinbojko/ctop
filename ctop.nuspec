@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>ctop</id>
+    <title>Ctop</title>
+    <version>0.7.2</version>
+    <authors>Bradley Cicenas</authors>
+    <owners>Marcin Bojko</owners>
+    <summary>Top-like interface for container metrics</summary>
+    <description>
+# Ctop
+
+## Description
+
+Top-like interface for container metrics [https://ctop.sh](https://ctop.sh)
+
+## Features
+
+* Install and uninstall via Chocolatey
+* Supports 64-bit version
+
+## Changelog
+
+### 2019-05-29 Build 0.7.2
+
+* version 0.7.2
+* 64-bit version - [https://www.virustotal.com/#/file/552c44852e29891662891e38a290d058a168d995e3cc8f66effe147ca0636c8e/detection](https://www.virustotal.com/#/file/552c44852e29891662891e38a290d058a168d995e3cc8f66effe147ca0636c8e/detection)
+
+## Usage
+
+### Direct
+
+```
+choco install ctop -y
+```
+
+### YAML (Foreman, puppetlabs/chocolatey module)
+
+```
+ctop:
+  ensure: latest
+  provider: chocolatey
+```
+
+or
+
+```
+ctop:
+  ensure: latest
+```
+
+    </description>
+    <projectUrl>https://github.com/bcicen/ctop</projectUrl>
+    <packageSourceUrl>https://github.com/marcinbojko/ctop</packageSourceUrl>
+    <docsUrl>https://github.com/bcicen/ctop</docsUrl>
+    <iconUrl>https://raw.githubusercontent.com/marcinbojko/ctop/master/icons/ctop.png</iconUrl>
+    <bugTrackerUrl>https://github.com/bcicen/ctop/issues</bugTrackerUrl>
+    <tags>ctop docker image admin</tags>
+    <copyright>Bradley Cicenas</copyright>
+    <licenseUrl>https://github.com/bcicen/ctop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/bcicen/ctop/releases</releaseNotes>
+    <dependencies>
+    </dependencies>
+  </metadata>
+    <files>
+      <file src="tools\**" target="tools" />
+      <file src="icons\**" target="icons" />
+    </files>
+</package>
