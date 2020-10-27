@@ -11,6 +11,11 @@ Top-like interface for container metrics [https://ctop.sh](https://ctop.sh)
 
 ## Changelog
 
+### 2020-10-27 Build 0.7.4
+
+* version 0.7.4
+* 64-bit version - [https://www.virustotal.com/gui/file/a0560954705484c07a421d414b140bcd08be8bd71209523c7e0921eb702c8827/detection](https://www.virustotal.com/gui/file/a0560954705484c07a421d414b140bcd08be8bd71209523c7e0921eb702c8827/detection)
+
 ### 2019-05-29 Build 0.7.2
 
 * version 0.7.2

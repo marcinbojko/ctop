@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>ctop</id>
     <title>Ctop</title>
-    <version>0.7.2</version>
+    <version>0.7.4</version>
     <authors>Bradley Cicenas</authors>
     <owners>Marcin Bojko</owners>
     <summary>Top-like interface for container metrics</summary>
@@ -22,6 +22,12 @@ Top-like interface for container metrics [https://ctop.sh](https://ctop.sh)
 * Supports 64-bit version
 
 ## Changelog
+
+### 2020-10-27 Build 0.7.4
+
+* version 0.7.4
+* 64-bit version - [https://www.virustotal.com/gui/file/a0560954705484c07a421d414b140bcd08be8bd71209523c7e0921eb702c8827/detection](https://www.virustotal.com/gui/file/a0560954705484c07a421d414b140bcd08be8bd71209523c7e0921eb702c8827/detection)
+
 
 ### 2019-05-29 Build 0.7.2
 
@@ -55,7 +61,7 @@ ctop:
     <projectUrl>https://github.com/bcicen/ctop</projectUrl>
     <packageSourceUrl>https://github.com/marcinbojko/ctop</packageSourceUrl>
     <docsUrl>https://github.com/bcicen/ctop</docsUrl>
-    <iconUrl>https://raw.githubusercontent.com/marcinbojko/ctop/master/icons/ctop.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/marcinbojko/ctop/1b6d08beb85c8880a4c86a6ba19801c2d2b90b7e/icons/ctop.png</iconUrl>
     <bugTrackerUrl>https://github.com/bcicen/ctop/issues</bugTrackerUrl>
     <tags>ctop docker image admin</tags>
     <copyright>Bradley Cicenas</copyright>
@@ -67,6 +73,5 @@ ctop:
   </metadata>
     <files>
       <file src="tools\**" target="tools" />
-      <file src="icons\**" target="icons" />
     </files>
 </package>
