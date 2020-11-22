@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>ctop</id>
     <title>Ctop</title>
-    <version>0.7.4</version>
+    <version>0.7.5</version>
     <authors>Bradley Cicenas</authors>
     <owners>Marcin Bojko</owners>
     <summary>Top-like interface for container metrics</summary>
@@ -22,6 +22,10 @@ Top-like interface for container metrics [https://ctop.sh](https://ctop.sh)
 * Supports 64-bit version
 
 ## Changelog
+
+### 2020-11-22 Build 0.7.5
+
+* version 0.7.5
 
 ### 2020-10-27 Build 0.7.4
 
