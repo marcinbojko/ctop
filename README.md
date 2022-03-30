@@ -11,6 +11,10 @@ Top-like interface for container metrics [https://ctop.sh](https://ctop.sh)
 
 ## Changelog
 
+### 2022-03-30 Build 0.7.7
+
+* version 0.7.7
+
 ### 2021-06-28 Build 0.7.6
 
 * version 0.7.6
